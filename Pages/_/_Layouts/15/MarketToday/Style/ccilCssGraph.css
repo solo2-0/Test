@@ -1,0 +1,25 @@
+body{margin:0 auto;padding:0;width:958px;font-family:Arial, Helvetica, sans-serif;font-size:0.7em;}
+a, a:hover{color:#014d89;text-decoration:none;cursor:pointer;}
+a:hover{text-decoration:underline;}
+ul{margin:0;padding:0;list-style-type:none;list-style-position:inside;}
+.headerWrapper{float:left;background:url(../images/headerBg.gif) repeat-x top left;height:75px;width:100%;}
+.headerWrapper .ticker{line-height:22px;height:22px;clear:both;font-size:11px;text-align:right;padding:0 12px;float:right;}
+.headerWrapper .infoNote{float:right;width:40%;text-align:right;padding-right:14px;margin-top:10px;}
+.headerWrapper .infoNote .clock{background:url(../images/iconClock.gif) no-repeat left center;padding:1px 0 1px 22px;display:inline-block;margin-left:4px;margin-right:4px;}
+.clear{clear:both;}
+.moneyMarketRates{width:100%;float:left;}
+.cbloInstrument{float:left;}
+.box{background:url(../images/bluBoxLeft.gif) no-repeat left top;padding-left:6px;margin:10px 0;}
+.box .content{background:url(../images/bluBoxRight.gif) no-repeat scroll right top;}
+.box .content .container{clear:both;margin-top:20px;padding:10px;margin-right:4px;}
+.box .content h2{color:#FFFFFF;font-size:115%;padding-top:8px;padding-bottom:4px;clear:both;font-family:Arial;}
+.box .content h2 span{float:right;font-weight:normal;font-size:100%;padding-right:10px;}
+.box .content h2 span.title{float:left;font-weight:bold;padding-left:6px;}
+.box .content table{clear:both;margin-left:-3px;margin-top:6px;border-color:white;border-top:white;border-right:white;border-left:white;border-bottom:white;}
+.box .content table tr th{background:url(../images/tableHdng.gif) repeat-x top #616161;color:#FFFFFF;padding:8px;}
+.box .content table tr td{padding:8px;}
+.box .content table tr.alternateRow td{background:#e5f1f4;}
+.box .content table tr.alternateRow td.align, table tr td.align{text-align:right;}
+.box .bottom{background:url(../images/bluBoxLftBtm.gif) no-repeat left bottom;padding-left:10px;margin-left:-6px;margin-bottom:-4px;}
+.box .bottom div{background:url(../images/bluBoxRhtBtm.gif) no-repeat right bottom;}
+.info{border:1px solid #ddeaae;line-height:37px;background:url(../images/iconBulp.gif) no-repeat 6px center #f4ffde;padding:6px 4px 6px 30px;clear:both;margin:3px 3px 0px -3px;height:30px;}

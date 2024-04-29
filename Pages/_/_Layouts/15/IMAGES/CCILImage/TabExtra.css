@@ -1,0 +1,68 @@
+﻿/*goole theme start here*/
+
+.google .ajax__tab_header 
+{
+	font-size:11px;
+	/*font-weight:bold;*/
+    font-family:Arial;
+    padding-left:5px;
+    border-bottom:solid 2px #BDDBE7;
+    cursor:hand;
+   
+}
+.google .ajax__tab_body 
+{
+	overflow: auto;
+    font-family:Arial;
+    font-size:8.5pt;
+    border:solid 2px #BDDBE7;
+    border-top:none;
+   
+} 
+/* Active/Hover States */
+.google .ajax__tab_active .ajax__tab_outer
+{
+    margin-right:4px;
+	background:url(../../../../../../_layouts/IMAGES/cciltab/inactive-tl.gif) no-repeat left top;    
+	cursor:pointer;
+}
+.google .ajax__tab_active .ajax__tab_inner
+{
+    margin-left:4px;
+	background:url(../../../../../../_layouts/IMAGES/cciltab/inactive-tr.gif) no-repeat right top;        
+	cursor:pointer;
+}
+.google .ajax__tab_active .ajax__tab_tab
+{
+	margin-right:4px;	
+	padding:5px 3px;
+	color:#000;
+	/*background:#666666;  */
+	background:url(../../../../../../_layouts/IMAGES/cciltab/inactive-mid.gif) repeat-x;
+	text-decoration:none;
+	cursor:pointer;		
+}
+/* Regular States */
+.google .ajax__tab_outer
+{
+    margin-right:4px;
+	background:url(../../../../../../_layouts/IMAGES/cciltab/active-tl.gif) no-repeat left top;   	
+	cursor:pointer;
+}
+.google .ajax__tab_inner
+{
+    margin-left:4px;
+	background:url(../../../../../../_layouts/IMAGES/cciltab/active-tr.gif) no-repeat right top;  	
+	cursor:pointer;
+}
+.google .ajax__tab_tab
+{
+	margin-right:4px;
+	padding:5px 3px;
+	/*color:#0d4eb2;*/
+	color:#fff;
+	background:url(../../../../../../_layouts/IMAGES/cciltab/active-mid.gif) repeat-x;
+	text-decoration:none;
+	cursor:pointer;
+	
+}
